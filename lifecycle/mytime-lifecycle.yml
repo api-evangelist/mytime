@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.mytime.com/
+status_page: https://status.mytime.com/
+status_page_components:
+- Website
+- iPhone App
+- Android App
+status_feeds:
+- https://status.mytime.com/history.rss
+- https://status.mytime.com/history.atom
+versioning:
+  scheme: unknown
+  note: MyTime does not publish a public API versioning or deprecation policy; the
+    api.mytime.com host backs the first-party web and mobile apps.
+deprecation:
+  policy_url: null
+  sunset_header: null
+deprecated_operations: []

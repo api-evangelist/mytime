@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of /.well-known/ on MyTime hosts
+note: No .well-known discovery documents are published. All probes returned 404;
+  absence recorded as valid data. No WellKnown/SecurityTxt pointer wired.
+hosts:
+- https://www.mytime.com
+- https://get.mytime.com
+documents:
+- path: /.well-known/security.txt
+  host: https://www.mytime.com
+  status: 404
+- path: /.well-known/security.txt
+  host: https://get.mytime.com
+  status: 404
+- path: /.well-known/openid-configuration
+  host: https://www.mytime.com
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  host: https://www.mytime.com
+  status: 404
+- path: /.well-known/api-catalog
+  host: https://www.mytime.com
+  status: 404
+- path: /.well-known/ai-plugin.json
+  host: https://www.mytime.com
+  status: 404

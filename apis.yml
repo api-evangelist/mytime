@@ -1,7 +1,27 @@
 aid: mytime
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mytime.png
 name: MyTime
-description: MyTime is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: MyTime is an all-in-one business management platform for retail service
+  chains and franchises, combining point-of-sale (POS), online appointment scheduling,
+  integrated payments, customer management, inventory, staff and payroll tools, loyalty,
+  reputation management, and marketing automation across single- and multi-location
+  operations. It serves beauty salons, barbershops, pet grooming, wellness spas, and
+  learning services, offering omnichannel booking (web, Google Reserve, Instagram/Facebook,
+  ClassPass) and analytics. MyTime runs a first-party API host (api.mytime.com) that
+  backs its web and native iPhone/Android apps, and offers partner integrations (Stripe,
+  QuickBooks, Shopify, ADP, Zapier), but does not publish a public developer API portal
+  or OpenAPI definition. Backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/mytime/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Scheduling
+- Appointments
+- Booking
+- Point of Sale
+- Payments
+- Retail
+- Franchise
+- Business Management
+- Salon Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mytime-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/mytime-lifecycle.yml
+- type: StatusPage
+  url: https://status.mytime.com/
 - type: Website
-  url: https://mytime.com
+  url: https://get.mytime.com/
+- type: Pricing
+  url: https://get.mytime.com/pricing/pricing-packages/
+- type: TermsOfService
+  url: https://get.mytime.com/terms/
+- type: PrivacyPolicy
+  url: https://get.mytime.com/terms/privacy-policy/
+- type: Blog
+  url: https://get.mytime.com/resource-center/blog/
+- type: Support
+  url: https://mytime.freshdesk.com/support/home
+- type: Login
+  url: https://www.mytime.com/users/sign_in
+- type: Integrations
+  url: https://get.mytime.com/features/integrations/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
