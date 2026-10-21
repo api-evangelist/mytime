@@ -87,6 +87,43 @@ edges:
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
   detected_by: sweep-franchise-registries.py
   first_seen: '2026-10-21'
+- partner_name: Stripe Partner Ecosystem
+  partner: stripe
+  partner_match: register
+  type: register
+  direction: partner-built
+  channel: standard-directory
+  relationship: standard-participant
+  evidence: https://stripe.partners/directory/mytime
+  category: Stripe ecosystem partner
+  contract_reference:
+    register: Stripe Partner Ecosystem directory (stripe.com/partners/directory -> stripe.partners, PartnerPage
+      SSR __NUXT_DATA__)
+    standard: Stripe Partner Ecosystem
+    spec_file: null
+    role: stripe-partner
+    registered_name: MyTime
+    register_id: mytime
+    partner_tier: null
+    matched_domain: mytime.com
+    matched_by: domain
+    identity_source: the directory's own website field for the partner (no lookup)
+    signal_note: 'participation only: directory listing (verification tier, if any, in partner_tier)'
+    context:
+      callouts:
+      - CRM
+      stripe_products:
+      - Connect
+      - Payments
+      - Radar
+      - Terminal
+      - Invoicing
+      - Financial Connections
+      location: Salt Lake City, United States
+    detected_by: sweep-stripe-app-marketplace.py
+    detected: '2026-10-21'
+  detected_by: sweep-stripe-app-marketplace.py
+  first_seen: '2026-10-21'
 method: searched
 checked:
 - https://zapier.com/api/v4/apps/
@@ -105,5 +142,12 @@ checked:
 - https://www.franchise.org/suppliers/
 - https://www.franchise.org/wp-json/wp/v2/member
 - https://www.servicetitan.com/market/franchise-management-software
+- https://docs.stripe.com/stripe-apps
+- https://docs.stripe.com/stripe-apps/review-requirements
+- https://marketplace.stripe.com/
+- https://marketplace.stripe.com/appm/apps
+- https://stripe.com/partners/directory
+- https://stripe.com/partners/verified-partners
+- https://stripe.partners/sitemap.xml
 source:
 - https://zapier.com/api/v4/apps/
