@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MyTime is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+MyTime is an all-in-one business management platform for retail service chains and franchises, combining point-of-sale (POS), online appointment scheduling, integrated payments, customer management, inventory, staff and payroll tools, loyalty, reputation management, and marketing automation across single- and multi-location operations. It serves beauty salons, barbershops, pet grooming, wellness spas, and learning services, offering omnichannel booking (web, Google Reserve, Instagram/Facebook, ClassPass) and analytics. MyTime runs a first-party API host (api.mytime.com) that backs its web and native iPhone/Android apps, and offers partner integrations (Stripe, QuickBooks, Shopify, ADP, Zapier), but does not publish a public developer API portal or OpenAPI definition. Backed by 500 Global.
 
-Backed by: 500-global — https://mytime.com
+**Areas:** Company · Scheduling · Appointments · Booking · Point-of-Sale · Payments · Retail · Franchise · Business Management · Salon Software
+
+## MyTime on APIs.io
+
+Everything profiled for MyTime is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mytime/](https://apis.io/providers/mytime/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mytime Domain Security](https://apis.io/security/mytime/mytime-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://get.mytime.com/)
+- [Pricing](https://get.mytime.com/pricing/pricing-packages/)
+- [Support](https://mytime.freshdesk.com/support/home)
+- [Blog](https://get.mytime.com/resource-center/blog/)
+- [Terms of service](https://get.mytime.com/terms/)
+- [Privacy policy](https://get.mytime.com/terms/privacy-policy/)
+- [Status](https://status.mytime.com/)
+
+## API Evangelist rating
+
+**Kin Score 14.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 38.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.5** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mytime/](https://apis.io/providers/mytime/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MyTime: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mytime/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
